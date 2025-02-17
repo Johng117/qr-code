@@ -1,6 +1,5 @@
 :root {
-  /* defined css variables*/
-
+  /* define css variables*/
   --white: hsl(0, 0%, 100%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
@@ -13,13 +12,30 @@ body {
   display: flex;
   justify-self: center;
   align-items: center;
+  height: 100vh;
 }
 
 #card {
   height: 500px;
   width: 320px;
   background-color: var(--white);
-  
-  
-  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 16px;
+}
+
+img {
+  height: 288px;
+  width: 288px;
+  border-radius: 20px;
+}
+
+.qr-information-container {
+  width: 288px;
+  height: 131px;
+  border: 1px solid blue;
+  margin-top: 16px;
 }
