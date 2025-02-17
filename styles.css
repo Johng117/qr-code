@@ -1,0 +1,25 @@
+:root {
+  /* defined css variables*/
+
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--slate-300);
+  margin: 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#card {
+  height: 500px;
+  width: 320px;
+  background-color: var(--white);
+  
+  
+  
+}
