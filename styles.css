@@ -6,13 +6,18 @@
   --slate-900: hsl(218, 44%, 22%);
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--slate-300);
-  margin: 0;
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 #card {
@@ -36,6 +41,30 @@ img {
 .qr-information-container {
   width: 288px;
   height: 131px;
-  border: 1px solid blue;
-  margin-top: 16px;
+  margin-top: 25px;
+}
+
+.info-text-one, .info-text-two {
+  width: 256px;
+  margin: 0 auto;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.info-text-one {
+  height: 52px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--slate-900);
+  font-size: 20px;
+}
+
+.info-text-two {
+  height: 63px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--slate-500);
+  margin-top: 15px;
 }
